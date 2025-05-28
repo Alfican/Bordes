@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #191970;
+    font-size: 40;
+    font-weight: bold;
+}
+
+.border-uno {
+    margin: 40px auto;
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+    border-width: 10px;
+    border-style: solid;
+    border-top-color: red;
+    border-right-color: blue;
+    border-bottom-color: green;
+    border-left-color: black;
+    background: linear-gradient(to left, white, blue);
+    color: rgb(37, 46, 177);
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.border-dos {
+    margin: 40px auto;
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 8px solid;
+    border-image: linear-gradient(to right, deeppink, blue) 1;
+}
